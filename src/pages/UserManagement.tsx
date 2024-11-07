@@ -22,6 +22,7 @@ const UserManagement: React.FC = () => {
   const fetchUsers = async () => {
     try {
       const users = await invoke('get_users');
+      //@ts-ignore
       setUsers(users);
     } catch (error) {
       console.log(error);

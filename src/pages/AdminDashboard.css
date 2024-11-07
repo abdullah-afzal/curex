@@ -1,0 +1,38 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #555;
+  }
+  
